@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Juego de la Serpiente</title>
+</head>
+<body>
+    <div class="op" style="text-align: center; margin-bottom: 10px;">
+        <p class="puntaje">Puntos: <span id="puntos"></span><span id="record"></span></p>
+        <p class="tiempo" style="margin-left: 1px;">Tiempo: <span id="min">0</span>:<span id="sec">0</span><span id="recordTm"></span><span id="recordTs"></span></p>
+        <button id="fa">&sup1</button>
+        <button id="no">&sup2</button>
+        <button id="di">&sup3</button>
+    </div>
+    <canvas width="400" height="400"></canvas>
+    <div style="margin-left: 46%;">
+        <div style="display: inline-flex; align-items: center;">
+            <button id="left"><</button>
+            <div style="display: flex; flex-direction: column;">
+                <button id="up">^</button>
+                <button id="down">v</button>
+            </div>
+            <button id="right">></button>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
