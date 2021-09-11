@@ -3,8 +3,8 @@ body{
     margin-top: 20px;
 }
 canvas{
-    border: solid 8px white;
-    background: linear-gradient(310deg, rgba(255,0,0)0%, rgba(8,27,255)100%);
+    border: dashed 8px #ff7c01;
+    background: linear-gradient(310deg, rgba(255,0,0)20%, rgba(8,27,255)100%);
     margin: 0 auto;
 }
 button{
